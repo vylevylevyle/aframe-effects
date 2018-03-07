@@ -8,7 +8,7 @@ AFRAME.registerComponent("glitch", {
 
         this.uniforms = {
             "tDisp":		{ type: "t", value: this.generateHeightmap( 64 ) },
-            "amount":		{ type: "f", value: 0.08 },
+            "amount":		{ type: "f", value: 0.01 },
             "angle":		{ type: "f", value: 0.02 },
             "seed":			{ type: "f", value: 0.02 },
             "seed_x":		{ type: "f", value: 0.02 },//-1,1
