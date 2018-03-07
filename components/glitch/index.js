@@ -13,8 +13,8 @@ AFRAME.registerComponent("glitch", {
             "seed":			{ type: "f", value: 0.02 },
             "seed_x":		{ type: "f", value: 0.02 },//-1,1
             "seed_y":		{ type: "f", value: 0.02 },//-1,1
-            "distortion_x":	{ type: "f", value: 0.5 },
-            "distortion_y":	{ type: "f", value: 0.6 },
+            "distortion_x":	{ type: "f", value: 0.0 },
+            "distortion_y":	{ type: "f", value: 0.0 },
             "col_s":		{ type: "f", value: 0.05 }
 	    };
         
